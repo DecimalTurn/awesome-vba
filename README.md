@@ -21,7 +21,6 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 #### Application compatibility 
 
 [a_all]: # "All applications"
-[a_wd]:  # "Word"
 [a_xl]:  # "Excel"
 [a_ac]:  # "Access"
 [a_ol]:  # "Outlook"
@@ -29,7 +28,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 
 * [⭐][a_all] - All applications
-* [✒️][a_wd] - Word
+* <picture><img alt="Word" title="Word" src="./resources/WordLogo.png" height="16px" align="center"></picture> - Word
 * [📊][a_xl] - Excel
 * [🅰️][a_ac] - Access
 * [📧][a_ol] - Outlook
@@ -200,7 +199,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 * [🖼][p_win][⭐][a_all][💣](# "Requires installation") [Rubberduck](https://rubberduckvba.com/) - An open-source COM add-in project that integrates with the Visual Basic Editor to add modern-day features to the familiar IDE. Works in VBA6, VBA7.x (x86/x64), and yes, in VB6 too!
 * [🖼][p_win][📊][a_xl] [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS).
-* [🖼][p_win][📊][a_xl][✒️][a_wd][🔒][o_pass] - [RibbonX](https://www.andypope.info/vba/ribboneditor_2010.htm) - AndyPope's Visual Ribbon Editor.
+* [🖼][p_win][📊][a_xl]<picture><img alt="Word" title="Word" src="./resources/WordLogo.png" height="16px" align="center"></picture>[🔒][o_pass] - [RibbonX](https://www.andypope.info/vba/ribboneditor_2010.htm) - AndyPope's Visual Ribbon Editor.
 * [🖼][p_win][📊][a_xl] [Custom UI XML Editor](https://yoursumbuddy.com/ribbon-customui-xml-editor/) - Addin for directly adding, editing and validating ribbon XML (Excel 2010+).
 * [🖼][p_win][⭐][a_all][💲](# "Costs upwards of $79") [MZ-Tools](https://www.mztools.com/) - VBE addin providing development tools
 * [🖼][p_win][⭐][a_all] [VbPeg](https://github.com/wqweto/VbPeg) - A parser generator for VBA. Converts PEG grammar like [this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/grammar.peg) into [VBA code like this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/cKscope.cls). Very useful if your implementing a new programming language in VBA.
