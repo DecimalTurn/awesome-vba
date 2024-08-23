@@ -42,9 +42,9 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ## Frameworks
 
-- [![p_win]](x:) [![a_all]](x:) [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
-- [![p_win]](x:) [![a_all]](x:) [![o_32]](x:) [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
-- [![p_win]](x:) [![a_all]](x:) [Hidennotare](https://github.com/RelaxTools/Hidennotare) - A framework by Japanese author RelaxTools. Contains numerous classes, interfaces and forms.
+- [![p_win]](a:) [![a_all]](a:) [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
+- [![p_win]](a:) [![a_all]](a:) [![o_32]](a:) [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
+- [![p_win]](a:) [![a_all]](a:) [Hidennotare](https://github.com/RelaxTools/Hidennotare) - A framework by Japanese author RelaxTools. Contains numerous classes, interfaces and forms.
 
 ## Libraries
 
