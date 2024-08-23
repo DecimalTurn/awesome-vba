@@ -42,9 +42,9 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ## Frameworks
 
-- [![p_win]](#-) [![a_all]](#-) [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
-- [![p_win]](#-) [![a_all]](#-) [![o_32]](#-) [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
-- [![p_win]](#-) [![a_all]](#-) [Hidennotare](https://github.com/RelaxTools/Hidennotare) - A framework by Japanese author RelaxTools. Contains numerous classes, interfaces and forms.
+- [![p_win]](x:) [![a_all]](x:) [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
+- [![p_win]](x:) [![a_all]](x:) [![o_32]](x:) [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
+- [![p_win]](x:) [![a_all]](x:) [Hidennotare](https://github.com/RelaxTools/Hidennotare) - A framework by Japanese author RelaxTools. Contains numerous classes, interfaces and forms.
 
 ## Libraries
 
@@ -52,11 +52,11 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 #### JSON
 
-- [![p_all]](#-) [![a_all]](#-) [VBA-JSON](https://github.com/VBA-tools/VBA-JSON) - JSON conversion and parsing.
-- [![p_win]](#-) [![a_all]](#-) [mdJSON](https://www.vbforums.com/showthread.php?871695-VB6-VBA-JSON-parsing-to-built-in-VBA-Collections-with-JSON-Path-support) - JSON library with dot-notation for extracting paths.
-- [![p_win]](#-) [![a_all]](#-) [JSONBag](https://www.vbforums.com/showthread.php?738845-VB6-JsonBag-Another-JSON-Parser-Generator) - Uses shebang notation to extract keys from JSON strings. Can also build JSON with this library.
+- [![p_all]](x:) [![a_all]](x:) [VBA-JSON](https://github.com/VBA-tools/VBA-JSON) - JSON conversion and parsing.
+- [![p_win]](x:) [![a_all]](x:) [mdJSON](https://www.vbforums.com/showthread.php?871695-VB6-VBA-JSON-parsing-to-built-in-VBA-Collections-with-JSON-Path-support) - JSON library with dot-notation for extracting paths.
+- [![p_win]](x:) [![a_all]](x:) [JSONBag](https://www.vbforums.com/showthread.php?738845-VB6-JsonBag-Another-JSON-Parser-Generator) - Uses shebang notation to extract keys from JSON strings. Can also build JSON with this library.
 - From Frameworks:
-    - [![p_win]](#-) [![a_all]](#-) In `stdVBA` find `stdJSON` - As above.
+    - [![p_win]](x:) [![a_all]](x:) In `stdVBA` find `stdJSON` - As above.
 
 #### CSV
 
