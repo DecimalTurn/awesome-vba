@@ -294,8 +294,6 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ## Footnotes
 
-### Symbology
-
 Because of the nature of VBA, many libraries do not work on all Operating Systems, in all Office Applications or in all architectures(x64/x86). Some libraries may also require external resources (DLL, Addins, etc.) which can be difficult to use due to VBA's lack of a package manager. To help you in finding projects suitable for your needs, this awesome list uses the following symbology. The symbology also has tooltips which may provide more information.
 
 #### Platform Compatibility
