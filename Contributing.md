@@ -29,9 +29,9 @@ Platform compatibility is especially important for Mac users as many libraries a
 [p_mac]: ./resources/AppleLogo.svg "Mac OS only"
 [p_win]: ./resources/WindowsLogo.svg "Windows OS only"
 
-* [![p_all]](#-) - Compatible on all platforms
-* [![p_mac]](#-) - Mac OS only
-* [![p_win]](#-) - Windows OS only
+* ![p_all] - Compatible on all platforms
+* ![p_mac] - Mac OS only
+* ![p_win] - Windows OS only
 
 #### 2. Specifying Application compatibility 
 
@@ -45,12 +45,12 @@ If a library is built for and/or only works within a specific application and/or
 [a_pp]: ./resources/PowerPointLogo.svg "PowerPoint"
 [a_misc]: ./resources/Duck.svg
 
-* [![a_all]](#-) - All applications
-* [![a_wd]](#-) - Word
-* [![a_xl]](#-) - Excel
-* [![a_ac]](#-) - Access
-* [![a_ol]](#-) - Outlook
-* [![a_pp]](#-) - PowerPoint
+* ![a_all] - All applications
+* ![a_wd] - Word
+* ![a_xl] - Excel
+* ![a_ac] - Access
+* ![a_ol] - Outlook
+* ![a_pp] - PowerPoint
 * [![a_misc]](#- "Misc") - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
 
 #### 3. Specifying other important information
@@ -64,10 +64,10 @@ Many people use VBA in business environments because they don't have better tool
 [o_paid]: ./resources/Money.svg
 
 * [![o_dll]](#- "Requires external dependencies") - Requires external dependencies e.g. DLLs
-* [![o_inst]](#-) - Requires installation
-* [![o_32]](#-) - 32-bit/VB6 only 
+* ![o_inst] - Requires installation
+* ![o_32] - 32-bit/VB6 only 
 * [![o_paid]](#- "Link includes/leads to paid content") - Link includes/leads to paid content
-* [![o_pass]](#-) - VBA source code is password protected and/or hidden.
+* ![o_pass] - VBA source code is password protected and/or hidden.
 
 #### 4. Symbology should contain tooltips
 
@@ -98,23 +98,23 @@ In order to keep the document clean, several IDs have been added for common tool
 These can be used as follows:
 
 ```md
-* [![p_all]](#-) [![a_all]](#-)
+* ![p_all] ![a_all]
 ```
 
-Tooltips can be modified to give further helpful detail and should be considered especially for [![o_dll]](#-), [![o_paid]](#-) and [![a_misc]](#-).
+Tooltips can be modified to give further helpful detail and should be considered especially for ![o_dll], ![o_paid] and ![a_misc].
 
 ```md
-* [![p_all]](#-) [![a_all]](#-) [![o_dll]](#- "Requires external DLL")
-* [![p_all]](#-) [![a_all]](#-) [![o_inst]](#- "Some non-FOSS cheatsheets")
-* [![p_all]](#-) [![a_all]](#-) [![a_misc]](#- "Works in Auto-CAD")
+* ![p_all] ![a_all] [![o_dll]](#- "Requires external DLL")
+* ![p_all] ![a_all] [![o_inst]](#- "Some non-FOSS cheatsheets")
+* ![p_all] ![a_all] [![a_misc]](#- "Works in Auto-CAD")
 ```
 
 
 
 ### Symbology Examples
 
-* [![p_all]](#-) [![a_all]](#-) - Compatible on all operating systems and in all applications
-* [![p_win]](#-) [![a_wd]](#-) [![a_xl]](#-) - Only compatible on windows and only works in Word and Excel.
+* ![p_all] ![a_all] - Compatible on all operating systems and in all applications
+* ![p_win] ![a_wd] ![a_xl] - Only compatible on windows and only works in Word and Excel.
 
 ### Contribution examples
 
