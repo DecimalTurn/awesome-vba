@@ -56,7 +56,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - ![p_win] ![a_all] [mdJSON](https://www.vbforums.com/showthread.php?871695-VB6-VBA-JSON-parsing-to-built-in-VBA-Collections-with-JSON-Path-support) - JSON library with dot-notation for extracting paths.
 - ![p_win] ![a_all] [JSONBag](https://www.vbforums.com/showthread.php?738845-VB6-JsonBag-Another-JSON-Parser-Generator) - Uses shebang notation to extract keys from JSON strings. Can also build JSON with this library.
 - From Frameworks:
-    - ![p_win] ![a_all] In `stdVBA` find `stdJSON` - As above.
+    - ![p_win] ![a_all] In [stdVBA](http://github.com/sancarn/stdVBA) find `stdJSON` - As above.
 
 #### CSV
 
@@ -79,7 +79,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - ![p_all] ![a_all] [Better array](https://github.com/Senipah/VBA-Better-Array/tree/master/src) - An array class providing features found in more modern languages.
 - From Frameworks:
     - ![p_win] ![a_all] ![o_32] In `VbCorLib` find `ArrayList` - As above.
-    - ![p_win] ![a_all] In `stdVBA` find `stdArray` - As above. Also includes methods to search the array or perform checks from a callback.
+    - ![p_win] ![a_all] In [stdVBA](http://github.com/sancarn/stdVBA) find `stdArray` - As above. Also includes methods to search the array or perform checks from a callback.
 
 
 #### Dictionary
@@ -133,8 +133,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - ![p_all] ![a_all] [VBA state-loss callback](https://github.com/cristianbuse/VBA-StateLossCallback) - A crash free detector for VBA state-loss. State loss can occur when: Someone clicks `end` in an unhandled error; You click the VBA stop button; You enter design mode; Application exits.
 - ![p_win] ![a_all] [vb2clr](https://github.com/jet2jet/vb2clr) - Use C# from VBA using the .NET CLR runtime.
 - From Frameworks:
-    - ![p_win] ![a_all] In `stdVBA` find `stdCOM` - A one stop shop for COM automation, from invoking interfaces by offsets to extracting type information.
-    - ![p_win] ![a_all] In `stdVBA` find `stdReg` - Registry automation from searching to setting values.
+    - ![p_win] ![a_all] In [stdVBA](http://github.com/sancarn/stdVBA) find `stdCOM` - A one stop shop for COM automation, from invoking interfaces by offsets to extracting type information.
+    - ![p_win] ![a_all] In [stdVBA](http://github.com/sancarn/stdVBA) find `stdReg` - Registry automation from searching to setting values.
 
 ### Parsers / Interpreters
 
@@ -143,7 +143,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - ![p_all] ![a_all] [VBA Expressions](https://github.com/ws-garcia/VBA-Expressions) - A powerful string expression evaluator focussed on mathematics and data processing.
 - ![p_win] ![a_all] [ClooWrapperVBA](https://github.com/Excel-lent/ClooWrapperVBA) - Execute OpenCL from VBA, using either the GPU or CPU.
 - From Frameworks:
-    - ![p_win] ![a_all] In `stdVBA` find `stdLambda` - Full programming language including object manipulation, call stack, etc. 
+    - ![p_win] ![a_all] In [stdVBA](http://github.com/sancarn/stdVBA) find `stdLambda` - Full programming language including object manipulation, call stack, etc. 
 
 ### Web tools
 
