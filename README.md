@@ -48,7 +48,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ## Libraries
 
-### Data Formats
+### Data Formats (JSON, CSV, XML, etc.)
 
 #### JSON
 
@@ -72,7 +72,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 - ![p_win] ![a_all] [Excel-ZipTools](https://github.com/cristianbuse/Excel-ZipTools/tree/master) - Parse and Read Zip files.
 
-### Data Structures
+### Data Structures (Array-List and Dictionary)
 
 #### Array-List
 
