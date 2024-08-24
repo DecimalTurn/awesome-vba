@@ -300,9 +300,9 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 #### Platform Compatibility
 
-[p_all]: ./resources/Crown.svg "Compatible on all platforms"
-[p_mac]: ./resources/AppleLogo.svg "macOS only"
-[p_win]: ./resources/WindowsLogo.svg "Windows OS only"
+[p_all]: ./resources/Crown.svg 'Compatible on all platforms'
+[p_mac]: ./resources/AppleLogo.svg 'macOS only'
+[p_win]: ./resources/WindowsLogo.svg 'Windows OS only'
 
 - ![p_all] - Compatible on all platforms
 - ![p_mac] - Mac compatible
@@ -310,13 +310,13 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 #### Application compatibility
 
-[a_all]: ./resources/Star.svg "All applications"
-[a_wd]: ./resources/WordLogo.svg "Word"
-[a_xl]: ./resources/ExcelLogo.svg "Excel"
-[a_ac]: ./resources/AccessLogo.svg "Access"
-[a_ol]: ./resources/OutlookLogo.svg "Outlook"
-[a_pp]: ./resources/PowerPointLogo.svg "PowerPoint"
-[a_misc]: ./resources/Duck.svg "Misc"
+[a_all]: ./resources/Star.svg 'All applications'
+[a_wd]: ./resources/WordLogo.svg 'Word'
+[a_xl]: ./resources/ExcelLogo.svg 'Excel'
+[a_ac]: ./resources/AccessLogo.svg 'Access'
+[a_ol]: ./resources/OutlookLogo.svg 'Outlook'
+[a_pp]: ./resources/PowerPointLogo.svg 'PowerPoint'
+[a_misc]: ./resources/Duck.svg 'Misc'
 
 - ![a_all] - All applications
 - ![a_wd] - Word
@@ -328,11 +328,11 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 #### Other important information
 
-[o_32]: ./resources/32-Bit.svg "32-bit only"
-[o_pass]: ./resources/Padlock.svg "VBA is password protected"
-[o_dll]: ./resources/Dependencies.svg "Requires external DLLs"
-[o_inst]: ./resources/Installation.svg "Requires installation"
-[o_paid]: ./resources/Money.svg "Link includes/leads to paid content"
+[o_32]: ./resources/32-Bit.svg '32-bit only'
+[o_pass]: ./resources/Padlock.svg 'VBA is password protected'
+[o_dll]: ./resources/Dependencies.svg 'Requires external DLLs'
+[o_inst]: ./resources/Installation.svg 'Requires installation'
+[o_paid]: ./resources/Money.svg 'Link includes/leads to paid content'
 
 
 - ![o_32] - 32-bit only
@@ -346,12 +346,12 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 Your contributions are always welcome! Please take a look at the [contribution guidelines](./Contributing.md) first.
 
 <!-- Tooltip overrides -->
-[o_paid_mark]: ./resources/Money.svg "~£2 per control/application"
-[o_paid_mz]: ./resources/Money.svg "Costs upwards of $79"
-[o_paid_vbWatchDog]: ./resources/Money.svg "£170-£205 license per dev"
-[o_paid_dummmies]: ./resources/Money.svg "~$6"
-[o_paid_power]: ./resources/Money.svg "~$30"
-[o_paid_az]: ./resources/Money.svg "Some libraries used are non-FOSS and created by VBA A2Z"
-[o_paid_know]: ./resources/Money.svg "The video is from a consultant. Many of his videos are paid for."
+[o_paid_mark]: ./resources/Money.svg '~£2 per control/application'
+[o_paid_mz]: ./resources/Money.svg 'Costs upwards of $79'
+[o_paid_vbWatchDog]: ./resources/Money.svg '£170-£205 license per dev'
+[o_paid_dummmies]: ./resources/Money.svg '~$6'
+[o_paid_power]: ./resources/Money.svg '~$30'
+[o_paid_az]: ./resources/Money.svg 'Some libraries used are non-FOSS and created by VBA A2Z'
+[o_paid_know]: ./resources/Money.svg 'The video is from a consultant. Many of his videos are paid for.'
 
-[a_misc_tb]: ./resources/Duck.svg "VBA planned but as of 2022-05-27 can only compile to exe"
+[a_misc_tb]: ./resources/Duck.svg 'VBA planned but as of 2022-05-27 can only compile to exe'
