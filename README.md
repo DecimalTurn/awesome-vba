@@ -42,13 +42,13 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ## Frameworks
 
-- ![p_win] ![a_all] [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
+- ![Windows OS only](resources/WindowsLogo.svg) ![a_all] [stdVBA](http://github.com/sancarn/stdVBA) - A framework containing numerous classes for automation and utility. Focuses on code compactness and long-term maintainability.
 - ![p_win] ![a_all] ![o_32] [VbCorLib](https://github.com/kellyethridge/VBCorLib) - A framework which brings many powerful .NET classes to VBA/VB6.
 - ![p_win] ![a_all] [Hidennotare](https://github.com/RelaxTools/Hidennotare) - A framework by Japanese author RelaxTools. Contains numerous classes, interfaces and forms.
 
 ## Libraries
 
-### Data Formats
+### Data Formats (JSON, CSV, XML, etc.)
 
 #### JSON
 
@@ -72,7 +72,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 - ![p_win] ![a_all] [Excel-ZipTools](https://github.com/cristianbuse/Excel-ZipTools/tree/master) - Parse and Read Zip files.
 
-### Data Structures
+### Data Structures (Array-List and Dictionary)
 
 #### Array-List
 
