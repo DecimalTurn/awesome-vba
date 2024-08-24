@@ -335,7 +335,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 - ![o_32] - 32-bit only
 - ![o_pass] - Written in VBA but the code is password protected
-- [![o_dll]] - Requires external dependencies e.g. `.dll`, `.ocx`, `.o`, etc.
+- ![o_dll] - Requires external dependencies e.g. `.dll`, `.ocx`, `.o`, etc.
 - ![o_inst] - Requires installation
 - ![o_paid]- Link includes/leads to paid content
 
