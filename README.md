@@ -296,7 +296,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 Because of the nature of VBA, many libraries do not work on all Operating Systems, in all Office Applications or in all architectures(x64/x86). Some libraries may also require external resources (DLL, Addins, etc.) which can be difficult to use due to VBA's lack of a package manager. To help you in finding projects suitable for your needs, this awesome list uses the following symbology. The symbology also has tooltips which may provide more information.
 
-#### Platform Compatibility
+**Platform Compatibility**
 
 [p_all]: ./resources/Crown.svg 'Compatible on all platforms'
 [p_mac]: ./resources/AppleLogo.svg 'macOS only'
@@ -306,7 +306,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - ![p_mac] - Mac compatible
 - ![p_win] - Windows compatible
 
-#### Application compatibility
+**Application compatibility**
 
 [a_all]: ./resources/Star.svg 'All applications'
 [a_wd]: ./resources/WordLogo.svg 'Word'
@@ -324,7 +324,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - ![a_pp] - PowerPoint
 - ![a_misc] - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
 
-#### Other important information
+**Other important information**
 
 [o_32]: ./resources/32-Bit.svg '32-bit only'
 [o_pass]: ./resources/Padlock.svg 'VBA is password protected'
