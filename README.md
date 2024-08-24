@@ -1,3 +1,4 @@
+<!--lint ignore double-link-->
 # Awesome VBA ![VBALogo](./resources/VBALogo.png) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 
 Visual Basic for Applications (VBA) is an implementation of Microsoft's event-driven programming language Visual Basic 6.0 (VB6) built into most desktop Microsoft Office applications.
@@ -10,8 +11,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 - [Frameworks](#frameworks)
 - [Libraries](#libraries)
-  - [Data Formats (JSON, CSV, XML, etc.)](#data-formats)
-  - [Data Structures (Array-List and Dictionary)](#data-structures)
+  - [Data Formats (JSON, CSV, XML, etc.)](#data-formats-json-csv-xml-etc)
+  - [Data Structures (Array-List and Dictionary)](#data-structures-array-list-and-dictionary)
   - [Math libraries](#math-libraries)
   - [Database tools](#database-tools)
   - [Userform tools](#userform-tools)
@@ -48,7 +49,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ## Libraries
 
-### Data Formats
+### Data Formats (JSON, CSV, XML, etc.)
 
 #### JSON
 
@@ -62,7 +63,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 - ![p_all] ![a_all] [VBA-CSV-interface](https://github.com/ws-garcia/VBA-CSV-interface) - Powerful, fast and comprehensive RFC-4180 compliant CSV/TSV/DSV data management library.
 - From Frameworks:
-  - ![p_win] ![a_all] In [Hidennotare](https://github.com/RelaxTools/Hidennotare) find `csvWriter` and `csvReader`.
+  - ![p_win] ![a_all] In [Hidennotare](https://github.com/RelaxTools/Hidennotare) find `csvWriter` and `csvReader` - As above.
 
 #### XML
 
@@ -72,7 +73,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 - ![p_win] ![a_all] [Excel-ZipTools](https://github.com/cristianbuse/Excel-ZipTools/tree/master) - Parse and Read Zip files.
 
-### Data Structures
+### Data Structures (Array-List and Dictionary)
 
 #### Array-List
 
@@ -109,7 +110,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - ![p_win] ![a_all] [Material UI](https://github.com/todar/VBA-Material-Design) - Make your userform feel modern with Material UI.
 - ![p_all] ![a_all] [Easy EventListener](https://github.com/todar/VBA-Userform-EventListener) - Consolidate all event handling of a userform into 1 callback.
 - ![p_win] ![a_all] [Pseudo Control Arrays](http://addinbox.sakura.ne.jp/Breakthrough_P-Ctrl_Arrays_Eng.htm) - Optimal means of Consolidating all event handling of a userform. Demonstrates usage of `ConnectToConnectionPoint` API. Also worth looking at [this class](https://stackoverflow.com/questions/61855925/reducing-withevent-declarations-and-subs-with-vba-and-activex#answer-61893857) too. 
-- ![p_win] ![a_all] [![o_dll]] [Modern UI Components](https://github.com/krishKM/Modern-UI-Components-for-VBA) - Custom modern looking controls. 
+- ![p_win] ![a_all] ![o_dll] [Modern UI Components](https://github.com/krishKM/Modern-UI-Components-for-VBA) - Custom modern looking controls. 
 - ![p_win] ![a_all] [MVVM](https://github.com/rubberduck-vba/MVVM) - Model-View-ViewModel Infrastructure for maintainable userform development.
 - ![p_win] ![a_all] [VBA Userform Transitions and Animations](https://github.com/todar/VBA-Userform-Animations) - An excellent library for implementing animation easings into the Userform.
 - ![p_win] ![a_all] [Trick's Timer](https://github.com/thetrik/VbTrickTimer) - If you need to run a piece of code continuously and don't have access to `Application.OnTime` (and/or you need to run it faster than once per second), this is the class for you! Also check out the [forum post](https://www.vbforums.com/showthread.php?875635-VB6-VBA-Timer-class) for more information.
@@ -118,8 +119,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - ![p_win] ![a_all] ![o_paid_mark] [Mark's userform tools](https://www.kubiszyn.co.uk/) - Numerous UI tools and pretty userforms.
 - ![p_win] ![a_all] [VBA-UserForm-MouseScroll](https://github.com/cristianbuse/VBA-UserForm-MouseScroll) - Allows Mouse Wheel Scrolling on MSForms Controls and Userforms. 
 - ![p_all] ![a_all] [MSForms (All VBA) Treeview Control](https://jkp-ads.com/Articles/treeview.asp) - A treeview control replacement by JKP and Peter Thornton coded entirely in VBA.
-- ![p_win] ![a_all] [Custom Userform TitleBar color](https://www.mrexcel.com/board/threads/using-winapi-to-change-the-color-on-the-title-bar-of-a-userform.1205894/page-2#post-5892050)
-- ![p_win] ![a_all] [Multi-color ListBox class](https://www.mrexcel.com/board/threads/multicolor-drag-n-drop-listbox-class-win32.1206334/)
+- ![p_win] ![a_all] [Custom Userform TitleBar color](https://www.mrexcel.com/board/threads/using-winapi-to-change-the-color-on-the-title-bar-of-a-userform.1205894/page-2#post-5892050) 🎨
+- ![p_win] ![a_all] [Multi-color ListBox class](https://www.mrexcel.com/board/threads/multicolor-drag-n-drop-listbox-class-win32.1206334/) 🎨
 - ![p_win] ![a_all] [Use of GDIPlus in VBA](https://arkham46.developpez.com/articles/office/clgdiplus/) - GDIPlus can be used to create a `canvas` like element where any image can be drawn to. Additionally check out this [GDI32](https://arkham46.developpez.com/articles/office/clgdi32/) class from the same author.
 - ![p_win] ![a_all] [Use of OpenGL in VBA](https://arkham46.developpez.com/articles/office/vbaopengl/?page=Page_1) - OpenGL is a cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics. In this article the authors of the GDIPlus class.
 - ![p_win] ![a_all] ![o_32] [VB6 Graph Control](https://vb6awards.blogspot.com/2017/11/vb6-graph-control.html) - Won't work natively in VBA without a `PictureBox` compatible substitute, but an extremely performant graph control regardless.
@@ -147,12 +148,12 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ### Web tools
 
-- ![p_all] ![a_all] [VBA-Web](https://github.com/VBA-tools/VBA-Web) - Connect VBA, Excel, Access, and Office for Windows and Mac to web services and the web
+- ![p_all] ![a_all] [VBA-Web](https://github.com/VBA-tools/VBA-Web) - Connect VBA, Excel, Access, and Office for Windows and Mac to web services and the web.
 - ![p_all] ![a_all] [VBA-WebSocket](https://github.com/EagleAglow/vba-websocket) - Microsoft example code for a WebSocket client which can be used in conjunction with an echo server. There is also [a class](https://github.com/EagleAglow/vba-websocket-class) and an [async version](https://github.com/EagleAglow/vba-websocket-async) built by the discoverer of the microsoft code.
 - ![p_win] ![a_all] ![o_32] [vbAsyncSocket](https://github.com/wqweto/VbAsyncSocket) - Simple and thin WinSock API wrappers for VB6 loosely based on the original CAsyncSocket wrapper in MFC.
 - ![p_win] ![a_all] [Edge Automation](https://www.codeproject.com/Tips/5307593/Automate-Chrome-Edge-using-VBA) - Automate Chromium Edge using devtools protocol. [GitHub backup here](https://github.com/sancarn/stdVBA-Inspiration/tree/master/ChromeEdgeAutomation)
 - ![p_win] ![a_all] [Chrome Automation (via devtools protocol)](https://github.com/PerditionC/VBAChromeDevProtocol) - Automate Chrome using chrome devtools protocol. 
-- ![p_win] ![a_xl] [webxcel](https://github.com/michaelneu/webxcel) - A webserver which runs a RESTful backend. The creator also made an [article](https://dev.to/michaelneu/to-vba-and-beyond---building-a-restful-backend-using-plain-microsoft-excel-macros-76n) on how it works on dev.to.
+- ![p_win] ![a_xl] [webxcel](https://github.com/michaelneu/webxcel) - A webserver which runs a RESTful backend. The creator also made an [article](https://dev.to/michaelneu/to-vba-and-beyond---building-a-restful-backend-using-plain-microsoft-excel-macros-76n) on how it works on `dev.to`.
 
 ## Developer tools
 
@@ -160,11 +161,11 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - ![p_win] ![a_xl] [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS).
 - ![p_win] ![a_xl] ![a_wd] ![o_pass] - [RibbonX](https://www.andypope.info/vba/ribboneditor_2010.htm) - AndyPope's Visual Ribbon Editor.
 - ![p_win] ![a_xl] [Custom UI XML Editor](https://yoursumbuddy.com/ribbon-customui-xml-editor/) - Addin for directly adding, editing and validating ribbon XML (Excel 2010+).
-- ![p_win] ![a_all] ![o_paid_mz] [MZ-Tools](https://www.mztools.com/) - VBE addin providing development tools
+- ![p_win] ![a_all] ![o_paid_mz] [MZ-Tools](https://www.mztools.com/) - VBE addin providing development tools.
 - ![p_win] ![a_all] [VbPeg](https://github.com/wqweto/VbPeg) - A parser generator for VBA. Converts PEG grammar like [this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/grammar.peg) into [VBA code like this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/cKscope.cls). Very useful if you're implementing a new programming language in VBA.
 - ![p_win] ![a_all] [VBA Resource File Editor](http://leandroascierto.com/blog/vba-resource-file-editor/) - Store other files inside your excel/word/powerpoint files for later use with this handy tool. 
-- ![p_win] ![a_all] ![o_32] [vbRichClient](https://vbrichclient.com/#/en/About/) - An external client full of useful libraries 
-- ![p_win] ![a_all] ![o_paid_vbWatchDog] [vbWatchDog](https://www.everythingaccess.com/vbwatchdog.asp) - `vbWatchdog` hacks the VBA runtime to provide module name, procedure name and line number where error occurred.
+- ![p_win] ![a_all] ![o_32] [vbRichClient](https://vbrichclient.com/#/en/About/) - An external client full of useful libraries.
+- ![p_win] ![a_all] ![o_paid_vbwatchdog] [vbWatchDog](https://www.everythingaccess.com/vbwatchdog.asp) - `vbWatchdog` hacks the VBA runtime to provide module name, procedure name and line number where error occurred.
 
 ## Miscellaneous
 
@@ -205,8 +206,8 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - ![p_win] ![a_xl] [xlStudio](https://github.com/DylanTallchiefGit/xlStudio) - A DAW for Microsoft Excel. Also check out the awesome [video](https://youtu.be/RFdCM2kHL64).
 - ![p_win] ![a_xl] [Cellivization](https://s0lly.itch.io/cellivization) - A cool RTS-like game created in Excel. Also check out the awesome [video](https://www.youtube.com/watch?v=PzETBRcr_i8).
 - ![p_win] ![a_xl] [Arkanoid](http://leandroascierto.com/blog/juego-arkanoid-en-excel/) - Arkanoid, a retro arcade game, built in Excel. On some machines it runs faster than others.
-- ![p_win] ![a_xl] [Battleships](https://github.com/rubberduck-vba/Battleship)
-- ![p_win] ![a_ac] [Pacman](https://arkham46.developpez.com/articles/office/clgdiplus/tuto/tutoclgdiplusgame3/?page=Page_11#LXXIV)
+- ![p_win] ![a_xl] [Battleships](https://github.com/rubberduck-vba/battleship) 🎮
+- ![p_win] ![a_ac] [Pacman](https://arkham46.developpez.com/articles/office/clgdiplus/tuto/tutoclgdiplusgame3/?page=Page_11#LXXIV) 🎮
 - ![p_win] ![a_xl] [ExcelCommodroid](https://github.com/raspberrypioneer/ExcelCommodroid/tree/main) - Commodore computer loader using MS Excel on Windows. VBA7 only.
 
 ## External tools
@@ -214,7 +215,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - ![p_all] ![a_all] [oletools](https://github.com/decalage2/oletools) - Python tool which can be used to decode VBA P-Code (VBA's intermediate language).
 - ![p_win] ![a_misc_tb] [twinBasic](https://twinbasic.com/) - A VBA compatible parser, evaluator and compiler.
 - ![p_all] ![a_all] [vscode-vba](https://github.com/serkonda7/vscode-vba) - Extension that adds VBA editor support to Visual Studio Code.
-- ![p_all] ![a_all] [VBA Pro](https://marketplace.visualstudio.com/items?itemName=NotisDataAnalytics.vba-lsp) - VSCode Extension that adds enhanced VBA support based on Language Service Protocol. The source is also [on github](https://github.com/SSlinky/VBA-LanguageServer)
+- ![p_all] ![a_all] [VBA Pro](https://marketplace.visualstudio.com/items?itemName=NotisDataAnalytics.vba-lsp) - VSCode Extension that adds enhanced VBA support based on Language Service Protocol. The source is also [on GitHub](https://github.com/SSlinky/VBA-LanguageServer)
 
 ## Style Guides
 
@@ -241,7 +242,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 ### VB6 / VBScript
 
 - [Planet Source Code](https://github.com/Planet-Source-Code/PSCIndex) - A code repository GitHub which holds copious amounts of code. The site was closed down in 2023, but fortunately all VBA/VB6 samples were archived on GitHub today. Possibly not the entire collection (?) of projects/source code that was previously available at the PSC website.
-- [vbAccelerator Archive](https://github.com/tannerhelland/vbAccelerator-Archive) - archived copy of vbAccelerator site (articles, source code, etc.) that disappeared in 2015, reappeared in 2018, and anyone's guess what's going to next... Primarily VB6, but useful VBA resource.
+- [vbAccelerator Archive](https://github.com/tannerhelland/vbAccelerator-Archive) - Archived copy of vbAccelerator site (articles, source code, etc.) that disappeared in 2015, reappeared in 2018, and anyone's guess what's going to next. Primarily VB6, but useful VBA resource.
 
 ### Websites
 
@@ -255,7 +256,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [Rubberduck Blog](https://rubberduckvba.wordpress.com/) - Intermediate-Advanced topics.
 - ![a_ol] [Slipstick](https://www.slipstick.com/) - Website of Diane Poremsky (MVP) with focus on Outlook and VBA. 
 - ![a_ol] [TechnicLee](https://techniclee.wordpress.com/) - Outlook blog, many examples including code variations depending on user request.
-- ![a_pp] [PowerPoint VBA](https://pptvba.com/) - a site devoted to teaching VBA through making games in PowerPoint.
+- ![a_pp] [PowerPoint VBA](https://pptvba.com/) - A site devoted to teaching VBA through making games in PowerPoint.
 - [MS KB Archive](https://github.com/jeffpar/kbarchive/tree/master/id/vbwin) - Massive archive of vb6/vba problems, solutions and tutorials.
 
 ### Books
@@ -264,7 +265,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - [The VBA Developer's Handbook](https://www.academia.edu/29801473/VBA_Developers_Handbook_Second_Edition) - Write bulletproof VBA code for any situation. This book is the essential resource for developers working with any of the more than 300 products that employ the "Visual Basic for Applications" programming language. Hardbacks also available elsewhere.
 - [Advanced Visual Basic 6](https://pdfcoffee.com/advanced-visual-basic-6-power-techniques-for-everyday-programs978020170712024922-pdf-free.html) - Power Techniques for Everyday Programs Matthew Curland. Hardbacks also available elsewhere.
 - [Professional Excel Development](https://oiipdf.com/download/professional-excel-development-the-definitive-guide-to-developing-applications-using-microsoft-excel-vba-and-net) - In this book, four world-class Microsoft® Excel developers offer start-to-finish guidance for building powerful, robust, and secure applications with Excel. Hardbacks also available.
-- ![o_paid_dummmies] [Excel VBA Programming For Dummies](https://www.google.com/search?q=Excel+VBA+Programming+For+Dummies+book) - It′s time to move to the next level—creating your own, customized Excel 2010 solutions using Visual Basic for Applications (VBA).Using step–by–step instruction and the accessible, friendly For Dummies style, this practical book shows you how to use VBA, write macros, customize your Excel apps to look and work the way you want, avoid errors, and more
+- ![o_paid_dummmies] [Excel VBA Programming For Dummies](https://www.google.com/search?q=Excel+VBA+Programming+For+Dummies+book) - It′s time to move to the next level—creating your own, customized Excel 2010 solutions using Visual Basic for Applications (VBA).Using step–by–step instruction and the accessible, friendly For Dummies style, this practical book shows you how to use VBA, write macros, customize your Excel apps to look and work the way you want, avoid errors, and more.
 - ![o_paid_power] [Power Programming with VBA](https://www.wiley.com/en-us/Excel+2019+Power+Programming+with+VBA-p-9781119514916) - Excel 2019 Power Programming with VBA is fully updated to cover all the latest tools and tricks of Excel 2019. Encompassing an analysis of Excel application development and a complete introduction to Visual Basic for Applications (VBA), this comprehensive book presents all of the techniques you need to develop both large and small Excel applications.
 - [(E-Book) VBA beginners](https://goalkicker.com/VBABook/)
 - [(E-Book) Excel VBA beginners](https://goalkicker.com/ExcelVBABook/)
@@ -294,21 +295,21 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 
 ## Footnotes
 
-### Symbology
+#### Symbology
 
 Because of the nature of VBA, many libraries do not work on all Operating Systems, in all Office Applications or in all architectures(x64/x86). Some libraries may also require external resources (DLL, Addins, etc.) which can be difficult to use due to VBA's lack of a package manager. To help you in finding projects suitable for your needs, this awesome list uses the following symbology. The symbology also has tooltips which may provide more information.
 
-#### Platform Compatibility
+*Platform Compatibility*
 
 [p_all]: ./resources/Crown.svg 'Compatible on all platforms'
 [p_mac]: ./resources/AppleLogo.svg 'macOS only'
 [p_win]: ./resources/WindowsLogo.svg 'Windows OS only'
 
-- ![p_all] - Compatible on all platforms
-- ![p_mac] - Mac compatible
-- ![p_win] - Windows compatible
+![p_all] Compatible on all platforms <br />
+![p_mac] Mac compatible <br />
+![p_win] Windows compatible
 
-#### Application compatibility
+*Application compatibility*
 
 [a_all]: ./resources/Star.svg 'All applications'
 [a_wd]: ./resources/WordLogo.svg 'Word'
@@ -318,15 +319,15 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 [a_pp]: ./resources/PowerPointLogo.svg 'PowerPoint'
 [a_misc]: ./resources/Duck.svg 'Misc'
 
-- ![a_all] - All applications
-- ![a_wd] - Word
-- ![a_xl] - Excel
-- ![a_ac] - Access
-- ![a_ol] - Outlook
-- ![a_pp] - PowerPoint
-- ![a_misc] - Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description
+![a_all] All applications <br />
+![a_wd] Word <br />
+![a_xl] Excel <br />
+![a_ac] Access <br />
+![a_ol] Outlook <br />
+![a_pp] PowerPoint <br />
+![a_misc] Miscellaneous applications (MS Project, AutoCAD, etc.) - Specify in short description 
 
-#### Other important information
+*Other important information*
 
 [o_32]: ./resources/32-Bit.svg '32-bit only'
 [o_pass]: ./resources/Padlock.svg 'VBA is password protected'
@@ -335,11 +336,11 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 [o_paid]: ./resources/Money.svg 'Link includes/leads to paid content'
 
 
-- ![o_32] - 32-bit only
-- ![o_pass] - Written in VBA but the code is password protected
-- [![o_dll]] - Requires external dependencies e.g. `.dll`, `.ocx`, `.o`, etc.
-- ![o_inst] - Requires installation
-- ![o_paid]- Link includes/leads to paid content
+![o_32] 32-bit only <br />
+![o_pass] Written in VBA but the code is password protected <br />
+![o_dll] Requires external dependencies e.g. `.dll`, `.ocx`, `.o`, etc. <br />
+![o_inst] Requires installation <br />
+![o_paid] Link includes/leads to paid content
 
 ## Contributing
 
@@ -348,7 +349,7 @@ Your contributions are always welcome! Please take a look at the [contribution g
 <!-- Tooltip overrides -->
 [o_paid_mark]: ./resources/Money.svg '~£2 per control/application'
 [o_paid_mz]: ./resources/Money.svg 'Costs upwards of $79'
-[o_paid_vbWatchDog]: ./resources/Money.svg '£170-£205 license per dev'
+[o_paid_vbwatchdog]: ./resources/Money.svg '£170-£205 license per dev'
 [o_paid_dummmies]: ./resources/Money.svg '~$6'
 [o_paid_power]: ./resources/Money.svg '~$30'
 [o_paid_az]: ./resources/Money.svg 'Some libraries used are non-FOSS and created by VBA A2Z'
