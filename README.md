@@ -152,7 +152,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - ![p_win] ![a_all] ![o_32] [vbAsyncSocket](https://github.com/wqweto/VbAsyncSocket) - Simple and thin WinSock API wrappers for VB6 loosely based on the original CAsyncSocket wrapper in MFC.
 - ![p_win] ![a_all] [Edge Automation](https://www.codeproject.com/Tips/5307593/Automate-Chrome-Edge-using-VBA) - Automate Chromium Edge using devtools protocol. [GitHub backup here](https://github.com/sancarn/stdVBA-Inspiration/tree/master/ChromeEdgeAutomation)
 - ![p_win] ![a_all] [Chrome Automation (via devtools protocol)](https://github.com/PerditionC/VBAChromeDevProtocol) - Automate Chrome using chrome devtools protocol. 
-- ![p_win] ![a_xl] [webxcel](https://github.com/michaelneu/webxcel) - A webserver which runs a RESTful backend. The creator also made an [article](https://dev.to/michaelneu/to-vba-and-beyond---building-a-restful-backend-using-plain-microsoft-excel-macros-76n) on how it works on dev.to.
+- ![p_win] ![a_xl] [webxcel](https://github.com/michaelneu/webxcel) - A webserver which runs a RESTful backend. The creator also made an [article](https://dev.to/michaelneu/to-vba-and-beyond---building-a-restful-backend-using-plain-microsoft-excel-macros-76n) on how it works on `dev.to`.
 
 ## Developer tools
 
@@ -160,10 +160,10 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 - ![p_win] ![a_xl] [VBA-IDE-Code-Export](https://github.com/spences10/VBA-IDE-Code-Export) - Addin contains a code importer and exporter for use with git (or any VCS).
 - ![p_win] ![a_xl] ![a_wd] ![o_pass] - [RibbonX](https://www.andypope.info/vba/ribboneditor_2010.htm) - AndyPope's Visual Ribbon Editor.
 - ![p_win] ![a_xl] [Custom UI XML Editor](https://yoursumbuddy.com/ribbon-customui-xml-editor/) - Addin for directly adding, editing and validating ribbon XML (Excel 2010+).
-- ![p_win] ![a_all] ![o_paid_mz] [MZ-Tools](https://www.mztools.com/) - VBE addin providing development tools
+- ![p_win] ![a_all] ![o_paid_mz] [MZ-Tools](https://www.mztools.com/) - VBE addin providing development tools.
 - ![p_win] ![a_all] [VbPeg](https://github.com/wqweto/VbPeg) - A parser generator for VBA. Converts PEG grammar like [this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/grammar.peg) into [VBA code like this](https://github.com/wqweto/VbPeg/blob/master/test/Runner/peg/Kscope/cKscope.cls). Very useful if you're implementing a new programming language in VBA.
 - ![p_win] ![a_all] [VBA Resource File Editor](http://leandroascierto.com/blog/vba-resource-file-editor/) - Store other files inside your excel/word/powerpoint files for later use with this handy tool. 
-- ![p_win] ![a_all] ![o_32] [vbRichClient](https://vbrichclient.com/#/en/About/) - An external client full of useful libraries 
+- ![p_win] ![a_all] ![o_32] [vbRichClient](https://vbrichclient.com/#/en/About/) - An external client full of useful libraries.
 - ![p_win] ![a_all] ![o_paid_vbWatchDog] [vbWatchDog](https://www.everythingaccess.com/vbwatchdog.asp) - `vbWatchdog` hacks the VBA runtime to provide module name, procedure name and line number where error occurred.
 
 ## Miscellaneous
@@ -241,7 +241,7 @@ Because of the nature of VBA, many libraries do not work on all Operating System
 ### VB6 / VBScript
 
 - [Planet Source Code](https://github.com/Planet-Source-Code/PSCIndex) - A code repository GitHub which holds copious amounts of code. The site was closed down in 2023, but fortunately all VBA/VB6 samples were archived on GitHub today. Possibly not the entire collection (?) of projects/source code that was previously available at the PSC website.
-- [vbAccelerator Archive](https://github.com/tannerhelland/vbAccelerator-Archive) - archived copy of vbAccelerator site (articles, source code, etc.) that disappeared in 2015, reappeared in 2018, and anyone's guess what's going to next... Primarily VB6, but useful VBA resource.
+- [vbAccelerator Archive](https://github.com/tannerhelland/vbAccelerator-Archive) - archived copy of vbAccelerator site (articles, source code, etc.) that disappeared in 2015, reappeared in 2018, and anyone's guess what's going to next. Primarily VB6, but useful VBA resource.
 
 ### Websites
 
